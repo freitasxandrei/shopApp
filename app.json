@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "owner": "freitasxandrei",
+    "name": "shopApp",
+    "slug": "shopApp",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "20",
+      "infoPlist": {},
+      "bundleIdentifier": "focus.com"
+    },
+    "android": {
+      "userInterfaceStyle": "automatic",
+      "package": "focus.com",
+      "versionCode": 20
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}
